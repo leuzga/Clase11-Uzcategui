@@ -44,7 +44,6 @@ export default function CardView() {
   const [itemId, setItemId] = React.useState(0);
 
   const handleClick = (itemId: number) => {
-    console.log("EN HANDLECLICK indice y open ",itemId,open);
     setItemId(itemId);
     setOpen(!open);
   };
